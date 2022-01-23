@@ -8,10 +8,10 @@ If config needs to be disabled just change the extension other than `.conf` Ex. 
 
 # api.xyz.us.conf
 Servers the api/backend 
-Whenever https://api.xyz.us gets request, it forwards it to backend server along with host and remote address headers.
+Whenever https://api.mightybyte.us gets request, it forwards it to backend server along with host and remote address headers.
 
 # app.xyz.us.conf
 Servers the static frontend files 
-Whenever a request comes on https://app.xyz.us it servers the requested files from `/var/www/app` directory 
+Whenever a request comes on https://app.mightybyte.us it servers the requested files from `/var/www/app` directory 
 
 Caching of static files has not been applied. It can be applied 
